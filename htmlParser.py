@@ -1,8 +1,4 @@
 # html parser
-# example text:
-# <mainText><stats><attention>50%</attention> Base Mana Regen</stats></mainText><br>
-
-
 # input string, only append char if outside of <>
 # htmlString = "<mainText><stats><attention>50%</attention> Base Mana Regen</stats></mainText><br>"
 
