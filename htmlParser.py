@@ -1,5 +1,7 @@
-# <mainText><stats><attention>50%</attention> Base Mana Regen</stats></mainText><br>
 # html parser
+# example text:
+# <mainText><stats><attention>50%</attention> Base Mana Regen</stats></mainText><br>
+
 
 # input string, only append char if outside of <>
 # htmlString = "<mainText><stats><attention>50%</attention> Base Mana Regen</stats></mainText><br>"
@@ -7,8 +9,6 @@
 
 def parse(htmlString):
     toScreen = ''
-
-
 
     pointer1 = 0
     pointer2 = 0
@@ -35,10 +35,6 @@ def parse(htmlString):
             closeCount += 1
             if closeCount >= 4:
                 toScreen += ' '
-            # resets to next char after close sign
-            # cannot because issue with indexing at end of screen
-            # pointer2 += 1
-            # pointer1 = pointer2
 
             # if next pointer isn't the end of the string, iterate ahead
             if pointer2 != len(htmlString)-1:
