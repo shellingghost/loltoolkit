@@ -6,7 +6,9 @@ Another option for users to select is the item look up option. From here, users 
 The last option users may pick from is to look up summoner abilities which includes descriptions, cool downs, and ability range.
 Application utilizes a microprocessor using sockets to send information from server to app about items when user requests information about items. 
 
+![image](https://github.com/shellingghost/loltoolkit/assets/97666032/80954ef4-d969-4635-9d5c-364361ceebf7)
 ![image](https://github.com/shellingghost/loltoolkit/assets/97666032/129a60a5-f138-4d93-848c-5039db109df3)
 ![image](https://github.com/shellingghost/loltoolkit/assets/97666032/686f5859-4e2e-46ca-bb01-6d42e045db3f)
 ![image](https://github.com/shellingghost/loltoolkit/assets/97666032/33a72521-af16-4eac-9878-270de9d6a516)
+![image](https://github.com/shellingghost/loltoolkit/assets/97666032/590026b5-e0b6-44fc-8207-adb7fbf35676)
 
